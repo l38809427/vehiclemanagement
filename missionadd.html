@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add mission</title>
+</head>
+<body>
+	<h1>Add mission</h1>
+	<form action="missionadd.php"> <!--calls missionadd.php to add details to sql database-->
+		Mission Name:<br><input type="text" name="name"required><br><br>
+        Destination:<br><input type="text" name="Destination"required><br><br>
+        Launch date:<br><input type="date" name="launch_date"required><br><br>
+		Type:<br><input type="text" name="type"required><br><br>
+        crew_size:<br><input type="text" name="size"required><br><br>
+        target_id:<br><input type="text" name="target_id"required><br><br>
+		<input type="submit" value="Add new mission">
+		<input type="reset">
+	</form>	
+
+</body>
+</html>
